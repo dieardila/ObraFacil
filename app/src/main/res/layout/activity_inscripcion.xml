@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/form_title" android:textSize="28sp" android:textStyle="bold" android:accessibilityHeading="true"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/form_description" />
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/name" android:layout_marginTop="16dp"/>
+<EditText android:id="@+id/nameInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:inputType="textPersonName" android:autofillHints="personName" android:maxLength="100" android:singleLine="true" android:hint="@string/name_hint"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/phone" android:layout_marginTop="16dp"/>
+<EditText android:id="@+id/phoneInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:inputType="phone" android:autofillHints="phone" android:maxLength="25" android:singleLine="true" android:hint="@string/phone_hint"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/email" android:layout_marginTop="16dp"/>
+<EditText android:id="@+id/emailInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:inputType="textEmailAddress" android:autofillHints="emailAddress" android:maxLength="254" android:singleLine="true" android:hint="@string/email_hint"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/service_label" android:textSize="20sp" android:layout_marginTop="24dp" android:accessibilityHeading="true"/>
+<RadioGroup android:id="@+id/serviceGroup" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+<RadioButton android:id="@+id/paintRadio" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/paint"/>
+<RadioButton android:id="@+id/plumbingRadio" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/plumbing"/>
+<RadioButton android:id="@+id/electricRadio" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/electric"/>
+<RadioButton android:id="@+id/generalRadio" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/general"/>
+</RadioGroup>
+<TextView android:id="@+id/serviceError" android:layout_width="match_parent" android:layout_height="wrap_content" android:accessibilityLiveRegion="polite"/>
+<CheckBox android:id="@+id/acceptCheck" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_marginTop="16dp" android:text="@string/accept"/>
+<Button android:id="@+id/confirmButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_marginTop="16dp" android:text="@string/confirm"/>
+    </LinearLayout>
+</ScrollView>

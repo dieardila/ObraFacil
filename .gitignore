@@ -1,0 +1,45 @@
+# Archivos locales del IDE y herramientas
+.idea/
+*.iml
+local.properties
+.gradle/
+.kotlin/
+.android/
+.codex/
+.agents/
+.aws/
+.DS_Store
+Thumbs.db
+
+# Salidas generadas (en cualquier módulo)
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+*.hprof
+
+# Claves, credenciales y configuración local
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+secrets.properties
+credentials.json
+service-account*.json
+*-firebase-adminsdk-*.json
+google-services.json
+
+# Se conserva gradle/wrapper/gradle-wrapper.jar deliberadamente.

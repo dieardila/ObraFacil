@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ObraFacil</string>
+    <string name="intro_step">REMODELAR ES RENOVAR</string>
+    <string name="intro_description">Dale una nueva vida a tus espacios. Registra tu interés en pintura, plomería, electricidad o remodelación general con un formulario sencillo.</string>
+    <string name="academic_note">Propuesta académica: esta demostración no contrata servicios ni envía tu información.</string>
+    <string name="image_description">Ilustración de una casa y un rodillo de pintura</string>
+    <string name="start">Comenzar</string>
+    <string name="form_title">Inscripción</string>
+    <string name="form_description">Completa todos los campos y elige un servicio de interés.</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Correo electrónico</string>
+    <string name="name_hint">Tu nombre completo</string>
+    <string name="phone_hint">+57 300 123 4567</string>
+    <string name="email_hint">nombre@ejemplo.com</string>
+    <string name="service_label">Servicio de interés</string>
+    <string name="paint">Pintura</string>
+    <string name="plumbing">Plomería</string>
+    <string name="electric">Electricidad</string>
+    <string name="general">Remodelación general</string>
+    <string name="accept">Acepto usar mis datos únicamente para esta demostración académica, sin envío ni almacenamiento permanente.</string>
+    <string name="confirm">Confirmar</string>
+    <string name="confirmation_title">Revisa tu inscripción</string>
+    <string name="confirmation_description">Estos son los datos ingresados. Puedes volver para corregirlos. No se ha enviado ninguna solicitud.</string>
+    <string name="summary">Nombre: %1$s\n\nTeléfono: %2$s\n\nCorreo: %3$s\n\nServicio: %4$s\n\nAceptación: %5$s</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="missing">Sin información</string>
+    <string name="back">Volver</string>
+    <string name="exit">Salir</string>
+    <string name="error_name">Ingresa un nombre de al menos 2 caracteres que contenga letras.</string>
+    <string name="error_phone">Ingresa un teléfono válido de 7 a 15 dígitos.</string>
+    <string name="error_email">Ingresa un correo electrónico válido.</string>
+    <string name="error_service">Selecciona un servicio.</string>
+    <string name="error_accept">Debes aceptar para continuar.</string>
+</resources>
